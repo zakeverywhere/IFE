@@ -1,0 +1,115 @@
+html body{
+	margin:0px;
+}
+div {
+	box-shadow: 2px 2px 4px 1px #5c5c5c;
+	background: white;
+	padding: 10px 20px;
+	margin: 20px;
+}
+
+
+div.picture li{
+	display: block;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 10px;
+	margin:  10px;
+	width: 150px;
+}
+
+div.picture label{	
+	display: block;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+div.picture img{
+	height: auto; 
+    width: auto; 
+    max-width: 150px; 
+    max-height: 150px;
+}
+
+
+h3,h4{
+	margin: 10px 0px;
+	color: #707070;
+}
+
+p{
+	text-indent: 2em;
+}
+#title{
+	margin:0px;
+	box-shadow: none;
+	background: #303030;
+	color: white;
+	width: 100%;
+	position: relative;
+
+}
+#title h1{
+	display: inline;
+}
+#title ul{
+	display: inline;
+}
+#title li{
+
+	color: white
+	list-style-type: disc;
+	list-style-color: black;
+	color: white;
+	padding-right: 20px;
+	margin: 10px 20px;
+	float: right;
+}
+
+
+table{
+	border-collapse: collapse;
+	text-align: left;
+	width: 100%;
+	border: lightgrey;
+
+}
+table th{
+	color: white;
+	background-color: black;
+}
+.panel .hint{
+	color: lightgrey;
+}
+.panel table td{
+	padding: 5px;
+}
+.panel table td:nth-child(odd){
+	text-align: right;
+}
+.panel .button{
+	width: 100%;
+	height: 30px;
+	background: navy;
+	border: hidden 2px ;
+	border-radius: 5px; 
+	color: white;
+}
+.panel h2{
+	border-left: 5px solid lightgrey;
+	padding: 10px;
+}
+#sum{
+	background-color: lightgrey;
+	color: black;
+}
+#footer{
+	text-align: center;
+	margin:0px;
+	box-shadow: none;
+	background: #303030;
+	color: white;
+	width: 100%;
+	position: relative;
+
+}

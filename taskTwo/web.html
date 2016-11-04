@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="web.css">
+		<meta charset="utf-8" />
+		<title>A Master website</title>
+	</head>
+
+	<body>
+		<div id="title">
+			<h1>Master Website</h1>
+		  	<ul class ="navigation">
+				<a href="#essay_1"><li >Article 1</li></a>
+				<a href="#essay_2"><li >Article 2</li></a>
+				<a href="#essay_3"><li >Article 3</li></a>
+			</ul>
+		</div>
+
+		<div class="essay" id="essay_1">
+			<h2>Essay 1 title 1</h2>
+			<h3>Essay 1 title 2</h3>
+			<h4>author:   time:   </h4>
+			<p>this is a long long long long long long long long long long long long long long long long long long long long long long long long long long long long 
+			<a href="http://www.google.com" title="this page will be replaced">this is a link to google </a>
+			long long long long long long long long long long long long 
+			<strong>this is a bold text</strong> 
+			long long long long long long long long long long long
+			<br>
+			<img src="images.jpeg" alt="picture not found">
+			<br>
+			long long long <a href="http://www.google.com" title="this page will not be replaced" target="_blank">this is a link to google in a new tab </a>long long long long long long long long long paragraph</p>
+		</div>
+
+		<div class="essay" id="essay_2">
+			<h2>Essay 2 title 1</h2>
+			<h3>Essay 2 title 2</h3>
+			<h4>author:   time:   </h4>
+
+			<p>
+				this is a long long long long long long long long long long long long long long long long long long long long long long long long long long long long 
+				<a href="http://www.google.com" title="this page will be replaced">this is a link to google </a>	
+				long long long long long long long long long long long long 
+				<strong>this is a bold text</strong> 
+				long long long long long long long long long long long
+				<br>
+				<img src="images.jpeg" alt="picture not found">
+				<br>
+				<ul>
+					<li>item 1</li>
+					<li>item 2</li>
+					<li>item 3</li>
+				</ul>
+			</p>
+		</div>
+		<div class="picture">
+			<h2>picture</h2>
+			<ul> 
+				<li>
+				<label>good picture</label>
+				<img src="images.jpeg" alt="picture not found">
+				</li>
+				<li>
+				<label>good picture</label>
+				<img src="images.jpeg" alt="picture not found">
+				</li>
+				<li>
+				<label>good picture</label>
+				<img src="images.jpeg" alt="picture not found">
+				</li>
+				<li>
+				<label>good picture</label>
+				<img src="images.jpeg" alt="picture not found">
+				</li>
+				<li>
+				<label>good picture</label>
+				<img src="images.jpeg" alt="picture not found">
+				</li>
+				<li>
+				<label>good picture</label>
+				<img src="images.jpeg" alt="picture not found">
+				</li>
+				<li>
+				<label>good picture</label>
+				<img src="images.jpeg" alt="picture not found">
+				</li>
+
+			</ul>
+		</div>
+		<div class="essay" id="essay_3">
+			<h2>Essay 3 title 1</h2>
+			<h3>Essay 3 title 2</h3>
+			<h4>author:   time:   </h4>
+		
+			<ol>
+				<li>number 1</li>
+				<li>number 2</li>
+				<li>number 3</li>
+			</ol>
+	
+		
+			<label>
+				this is a table , and in order to make you see it is a table I added "boarder = '1'". 
+			</label>
+			
+			<table class="table" border="1">
+				<tr>
+					<th>table head</th>
+					<th>table head</th>
+					<th>table head</th>
+				</tr>
+				<tr>
+					<td>table content</td>
+					<td>table content</td>
+					<td><a href="">click</a></td>
+				</tr>
+				<tr>
+					<td>table content</td>
+					<td>table content</td>
+					<td><a href="">click</a></td>
+				</tr>
+				<tr>
+					<td>table content</td>
+					<td>table content</td>
+					<td><a href="">click</a></td>
+				</tr>
+				<tr id="sum">
+					<td>sum</td>
+					<td colspan="2">1000</td>
+				</tr>
+			</table>
+			
+		</div>
+
+		<div class="panel">
+			<h2>From now on it is a panel</h2>
+		
+			<form method="post" action="">
+			<table>
+			<tr>
+				<td>please enter an email:</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td class="hint">please enter a valid email address</td>
+			</tr>	
+			<tr>
+				<td>please enter an password:</td>
+				<td><input type="password" name="password"></td>
+			</tr>	
+			<tr>
+				<td>please enter the password again:</td>
+				<td><input type="password" name="password">
+				</td>
+			</tr>	
+			<tr>
+				<td></td>
+				<td class="hint">password needs to be 6-16 numbers</td>
+			</tr>	
+			<tr>
+				<td>gender:</td>
+				<td>
+					<input type="radio" name="sex" value="male" checked="checked"> male
+					<input type="radio" name="sex" value="female"> female
+				</td>
+			</tr>	
+			<tr>
+				<td>city:</td>
+				<td><select>
+					<option value="sydney">sydney</option>
+					<option value="melbourn">melbourn</option>
+					<option value="adleide">adleide</option>
+				</select></td>
+			</tr>	
+
+			<tr>
+				<td>hobby:</td>
+				<td>
+					<input type="checkbox" name="hobby" value ="sport"> sport
+					<input type="checkbox" name="hobby" value ="art">art
+					<input type="checkbox" name="hobby" value ="science"> science
+				</td>
+			</tr>	
+
+			<tr>
+				<td>description:</td>
+				<td>
+					<textarea>this is a text area</textarea>
+				</td>
+			</tr>	
+			<tr>
+				<td colspan="2">
+				<input type="submit" name="submit" class="button">
+				</td>
+			</tr>	
+			</table>
+			</form>
+		</div>
+	</body>
+
+	<div id="footer"> copyright© </div>
+</html>
