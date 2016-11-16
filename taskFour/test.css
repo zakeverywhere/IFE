@@ -1,0 +1,28 @@
+.box-set {
+  position: absolute;
+  overflow: auto;
+  width: 400px;
+  height: 200px;
+  margin-left:-200px;
+  left: 50%;
+  top:50%;
+  margin-top: -100px;
+  background: #ccc;
+}
+
+.box {
+  background: #8ec63f;
+  height: 50px;
+  width: 50px;
+  
+}
+#one {
+	position: absolute;
+	border-radius: 0 0 50px 0;
+}
+#two {
+	border-radius:50px 0 0 0 ;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
