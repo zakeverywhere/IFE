@@ -1,0 +1,50 @@
+body{
+	padding: 20px;
+	margin: 0px;
+}
+
+img{
+	border: 1px solid #999;
+	width: 80px;
+	height: 80px;
+	padding:0px;
+}
+
+p{
+	margin: 0;
+}
+
+.name{
+	float: right;
+	width: 60px;
+	text-align: left;
+}
+.container{
+	overflow: auto;
+}
+.left,.right,.center,.container{
+	border: 1px solid #999;
+	background: #eee;
+	padding: 20px;
+}
+
+.left{
+	float: left;
+	width: 160px;
+}
+
+.right{
+	padding-top: 0px;
+	
+	width: 80px;
+	float: right;
+}
+
+.center{
+	margin-left: 220px;
+	margin-right: 140px;
+}
+
+.right img{
+	margin-top:20px;
+}
