@@ -1,0 +1,18 @@
+.aqi-chart-wrap{
+	position: relative;
+}
+
+.aqi-bar-day{
+	position: absolute;
+}
+.aqi-bar-week{
+	
+	position: absolute;
+}
+.aqi-bar-month{
+	position: absolute;
+}
+
+.aqi-bar-day:hover{
+	content:attr(title);
+}
