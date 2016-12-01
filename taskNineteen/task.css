@@ -1,0 +1,22 @@
+
+#display{
+	position: relative;	
+}
+.bar{
+	position: absolute;
+	margin: 1px;
+	bottom:-120px;
+	width: 30px;
+	background-color:red;
+	color: white;
+	text-align: center;
+}
+.selected{
+	position: absolute;
+	margin: 1px;
+	bottom:-120px;
+	width: 30px;
+	background-color:pink;
+	color: white;
+	text-align: center;
+}
