@@ -51,10 +51,10 @@ window.onload = function(){
    }
    //function for sort
    function bubbleSort(){
+      if(stack.length < 2 ){return}
+
       //disable buttons
       disableBtns(true);
-
-      if(stack.length < 2 ){return}
 
       //commit sorting
       var i=0,j = stack.length-1;
@@ -84,7 +84,7 @@ window.onload = function(){
          bar.className = "bar";
          bar.innerHTML = stack[i];
          bar.style.height = stack[i];
-         bar.style.left = i*32;//32 = 30px(width)+2px(padding);
+         bar.style.left = i*32;//32 = 30px(width)+2px(margin);
          $("display").appendChild(bar);
       }
    }
