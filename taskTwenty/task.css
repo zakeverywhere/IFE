@@ -1,0 +1,20 @@
+
+#display{
+	position: relative;	
+	
+}
+textarea{
+	resize: none;
+	width: 100%;
+}
+.bar{
+	display: inline-block;
+	position: relative;
+	margin: 1px;
+	width: 80px;
+	font-size:12px;
+	background-color:red;
+	color: white;
+	vertical-align: middle;
+	text-align: center;
+}
