@@ -1,0 +1,46 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+#tag-wrap{
+	float: left;
+	box-shadow: 0px 0px 10px 1px grey;
+	margin: 10px;
+	padding: 5px;
+	width: 30%;
+	min-width: 150px;
+}
+
+#tag-input{
+	width: 100%;
+}
+
+tag{
+	display: inline-block;
+	background-color:pink;
+	margin-top: 3px;
+	margin-right: 3px;
+	padding: 5px;
+}
+
+tag:hover{
+	transform: scale(1.1);
+	background: darksalmon;
+}
+
+#interest-wrap{
+	min-width: 300px;
+	margin: 10px;
+	margin-left: 35%;
+	display: block;
+	position: absolute;
+}
+textarea{
+	resize: none;
+	width: 100%;
+}
+button{
+	margin: 5px 0px;
+}
